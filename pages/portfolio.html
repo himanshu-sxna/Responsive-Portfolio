@@ -6,12 +6,38 @@
 
     <!--link to css stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" type="text/css">
 
     <title>Portfolio</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <!----Navbar-->
+        <nav class="navbar navbar-expand-sm bg-transparent navbar-custom d-flex align-items-stretch">
+            <a class="navbar-brand ml-3" href="#">
+                <span class="material-icons" id="main-logo">polymer</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class= "material-icons" id="list-icon">list</span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item mx-3">
+                <a class="nav-link rounded-lg" href="../index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active rounded-lg" href="pages/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-3">
+                <a class="nav-link rounded-lg" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
     
     <main></main>
 

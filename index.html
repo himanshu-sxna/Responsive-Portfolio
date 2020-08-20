@@ -6,16 +6,75 @@
 
     <!--link to css stylesheets-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
 
     <title>Home</title>
 </head>
-<body>
-    <header></header>
+<body class="d-flex flex-column">
+    <header>
+        <!----Navbar-->
+        <nav class="navbar navbar-expand-sm bg-transparent navbar-custom d-flex align-items-stretch">
+            <a class="navbar-brand ml-3" href="#">
+                <span class="material-icons" id="main-logo">polymer</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class= "material-icons" id="list-icon">list</span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item mx-3">
+                <a class="nav-link active rounded-lg" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link rounded-lg" href="pages/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item mx-3">
+                <a class="nav-link rounded-lg" href="pages/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
     
-    <main></main>
+    <!-- Hero Text -->
 
-    <footer></footer>
+    <main class="d-flex flex-column justify-content-center">
+        <div class="jumbotron-fluid text-center mt-5">
+            <div class="container">
+                <div id="bio-img">
+                    <span class="material-icons">psychology</span>
+                </div>
+                <h1 class="display-1">Awesome Web Developer</h1>
+                <p class="lead">I am passionate about developing awesome web experiences and enjoy creating beautifully designed, intuitive and functional websites.
+                </p>
+                <hr class="my-4">
+                <p>For over past 8 years, I have worked for some of the best digital agencies and wonderful clients to create some award winning works. And, I can make this happen for your business as well.</p>
+            </div>
+          </div>
+    </main>
+
+
+    <!-- Footer section-->
+    <footer class="footer mt-auto">
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="col d-flex justify-content-around mb-2">
+                    <a href="https://www.facebook.com/" target="_blank">
+                            <span class="material-icons mx-3">facebook</span>
+                    </a>
+                    <a href="https://www.facebook.com/">
+                        <span class="material-icons" target="_blank">call</span>
+                    </a>
+                    <a href="https://www.gmail.com/" target="_blank">
+                        <span class="material-icons mx-3">email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!--Bootstrap plugins-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

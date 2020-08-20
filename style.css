@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/******************/
+/***** NAVBAR *****/
+/******************/
+
+.navbar-custom a {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-custom a.active {
+    color: #d63447;
+}
+
+#main-logo {
+    font-size: 3.25em;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+#list-icon {
+    font-size: 2em;
+}
+
+.material-icons {
+    color: #ffffff;
+}
+
+.navbar-custom li a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+/******************/
+/***** MAIN SECTION *****/
+/******************/
+
+.jumbotron-fluid {
+    background: none;
+}
+
+#bio-img span {
+    font-size: 185px;
+}
+
+/******************/
+/***** FOOTER *****/
+/******************/
+
+
+/******************/
+/***** MEDIA QUERIES *****/
+/******************/
+
+@media only screen and (max-width: 440px) {
+    .jumbotron-fluid h1 {
+        font-size: 5em;
+    }
+  }
+
+  @media only screen and (max-width:360px) {
+    .jumbotron-fluid h1 {
+        font-size: 3.5em;
+    }
+  }
+
+ 
