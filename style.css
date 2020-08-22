@@ -1,10 +1,12 @@
 body {
     background-color: black;
     color: #ffffff;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+/** ---- all icons white ---- **/
+
+.material-icons {
+    color: #ffffff;
 }
 
 /******************/
@@ -32,18 +34,30 @@ body {
     font-size: 2em;
 }
 
-.material-icons {
-    color: #ffffff;
-}
-
 .navbar-custom li a:hover {
     color: black;
     background-color: #ffffff;
 }
 
 /******************/
-/***** MAIN SECTION *****/
+/***** FOOTER *****/
 /******************/
+
+
+/******************/
+/***** HOME PAGE *****/
+/******************/
+
+/** ---- Backgroung img wrapper ---- **/
+
+#wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/** ---- Main Section ---- **/
 
 .jumbotron-fluid {
     background: none;
@@ -54,13 +68,15 @@ body {
 }
 
 /******************/
-/***** FOOTER *****/
+/***** PORTFOLIO PAGE *****/
 /******************/
 
 
 /******************/
 /***** MEDIA QUERIES *****/
 /******************/
+
+/** ---- Decrease home page main section font ---- **/
 
 @media only screen and (max-width: 440px) {
     .jumbotron-fluid h1 {
@@ -73,5 +89,7 @@ body {
         font-size: 3.5em;
     }
   }
+
+
 
  
