@@ -7,7 +7,7 @@ The template has 3 pages :
 - Portfolio
 - Contact
 
-**All pages have a consistent navbar across them with working navigation links.**
+**All pages have a consistent navbar across them with working navigation links.**  
 **All Images are repsonsive**
 
 To view the template [click here.](https://himanshu-sxna.github.io/unit-02-css-and-bootstrap-homework-responsive-portfolio/index.html)
