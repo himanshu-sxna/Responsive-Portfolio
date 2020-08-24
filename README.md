@@ -1,6 +1,6 @@
-# Repsonsive Portfolio Template
+# Responsive Portfolio Template
 
-A repsonsive portfolio template using Bootstrap CSS framework.
+A responsive portfolio template using Bootstrap CSS framework.
 
 The template has 3 pages :
 - Home
