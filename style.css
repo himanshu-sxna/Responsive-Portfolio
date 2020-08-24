@@ -25,6 +25,11 @@ body {
     color: #d63447;
 }
 
+.navbar-custom li a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
 #main-logo {
     font-size: 3.25em;
 }
@@ -36,18 +41,6 @@ body {
 #list-icon {
     font-size: 2em;
 }
-
-
-.navbar-custom li a:hover {
-    color: black;
-    background-color: #ffffff;
-}
-
-
-/******************/
-/***** FOOTER *****/
-/******************/
-
 
 /******************/
 /***** HOME PAGE *****/
@@ -88,10 +81,6 @@ body {
     border-bottom-left-radius: 50%;
 }
 
-/******************/
-/***** CONTACT PAGE *****/
-/******************/
-
 
 /******************/
 /***** MEDIA QUERIES *****/
@@ -101,13 +90,13 @@ body {
 
 @media only screen and (max-width: 440px) {
     .jumbotron-fluid h1 {
-        font-size: 5em;
+        font-size: 4em;
     }
   }
 
   @media only screen and (max-width:360px) {
     .jumbotron-fluid h1 {
-        font-size: 3.5em;
+        font-size: 3em;
     }
   }
 
